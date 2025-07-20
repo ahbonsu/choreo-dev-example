@@ -1,0 +1,7 @@
+schemaVersion: 1.1
+
+endpoints:
+  - name: echo-svc
+    service:
+      port: 8080
+    type: REST
