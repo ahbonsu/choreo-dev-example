@@ -7,4 +7,4 @@ endpoints:
         port: 8080
       type: REST
       networkVisibilities:
-        - Public
+        - Organization
