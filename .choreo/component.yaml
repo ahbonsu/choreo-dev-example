@@ -1,7 +1,10 @@
-schemaVersion: 1.1
-
+schemaVersion: "1.2"
 endpoints:
-  - name: echo-svc
-    service:
-      port: 8080
-    type: REST
+    - name: echo-svc
+      displayName: echo-svc
+      service:
+        basePath: /
+        port: 8080
+      type: REST
+      networkVisibilities:
+        - Public
